@@ -13,6 +13,7 @@ _This project aims to provide a data science environment that is: isolated (dock
 
 ### Requirements:
 -----------
+_You don't need to clone this repository. All you need is docker!_
  - Docker 20.10.14+
 
 &nbsp;
@@ -37,7 +38,7 @@ Inside the docker you will have the following structure:
 │   ├── config.yaml       <- the file that you need modify
 ```
 
-Access the docker container and modify the config.yaml with the information of your project
+Access the docker container and modify the config.yaml with your project information
 ```
 default_context:
     author_name: "author_name"
